@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
-
-// Create Button
-// Import Button
+import MyButton from "./components/Button.jsx";
 
 function App() {
   return (
@@ -12,6 +10,9 @@ function App() {
       <div className="App">
         <h1>Hello CodeSandbox</h1>
         <h2>Start editing to see some magic happen!</h2>
+        <MyButton />
+
+        <MyButton />
       </div>
     </Fragment>
   );
