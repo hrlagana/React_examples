@@ -6,13 +6,12 @@ import MyButton from "./components/Button.jsx";
 function App() {
   return (
     <Fragment>
-      <h1>Hello1</h1>
+      <h1 style={{ border: "5px solid indigo" }}>Hello1</h1>
       <div className="App">
         <h1>Hello CodeSandbox</h1>
         <h2>Start editing to see some magic happen!</h2>
-        <MyButton />
-
-        <MyButton />
+        <MyButton color="yellow" />
+        <MyButton color="limegreen" />
       </div>
     </Fragment>
   );

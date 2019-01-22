@@ -3,7 +3,12 @@ import "./Button.css";
 
 class Button extends Component {
   render() {
-    return <button>My Button!</button>;
+    return (
+      <button style={{ color: this.props.color }}>
+        Button Props:
+        {this.props.color}
+      </button>
+    );
   }
 }
 
